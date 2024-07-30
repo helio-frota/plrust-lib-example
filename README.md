@@ -25,8 +25,16 @@ Run pgrx init
 cargo pgrx init --pg16 ~/Desktop/tc/trustify/.trustify/postgres/16.3.0/bin/pg_config
 ```
 
+Downgrade clap
+
+```
+cargo update -p clap@4.5.11 --precise 4.4.17
+```
+
 Build
 
 ```
 cargo build
 ```
+
+
