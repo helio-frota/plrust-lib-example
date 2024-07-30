@@ -1,0 +1,7 @@
+# about control file https://www.postgresql.org/docs/current/extend-extensions.html#EXTEND-EXTENSIONS-FILES
+comment = 'plrust_lib_example: Created by pgrx'
+default_version = '@CARGO_VERSION@'
+module_pathname = '$libdir/plrust_lib_example'
+relocatable = false
+superuser = true
+requires = 'plrust'
