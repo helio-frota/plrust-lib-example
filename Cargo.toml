@@ -4,6 +4,7 @@ version = "0.0.1"
 edition = "2021"
 
 [lib]
+# https://doc.rust-lang.org/reference/linkage.html
 crate-type = ["cdylib"]
 
 [features]
